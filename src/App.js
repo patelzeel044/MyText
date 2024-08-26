@@ -40,7 +40,7 @@ function App() {
   return (
     <>
     <Router>
-    <Navbar title="MyText" mode={mode} toggleMode={toggleMode} key={new Date()} />
+    <Navbar title="TextMate" mode={mode} toggleMode={toggleMode} key={new Date()} />
     <Alert alert={alert}/>
     <div className="container my-3">
     <Switch>
